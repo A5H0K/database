@@ -1,0 +1,15 @@
+How to import a .csv(or some other format) data file in to database directly'
+
+
+LOAD DATA LOCAL INFILE 'fileName.csv' INTO TABLE table_Name FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 ROWS;
+
+
+
+ CREATE USER 'bar'@'localhost' IDENTIFIED BY 'bar';
+GRANT ALL PRIVILEGES ON database_name.* TO 'carrot_user1'@'localhost';
+
+Granting access for the user to access particular database from a specified remote server
+
+GRANT ALL ON foo.* TO bar@'172.25.224.75' IDENTIFIED BY 'bar';
+
+GRANT ALL ON ehr_db1.* TO root@'172.25.138.36' IDENTIFIED BY 'carrot';

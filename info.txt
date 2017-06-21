@@ -1,4 +1,0 @@
-How to import a .csv(or some other format) data file in to database directly'
-
-
-LOAD DATA LOCAL INFILE 'fileName.csv' INTO TABLE table_Name FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 ROWS;
